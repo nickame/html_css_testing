@@ -15,7 +15,7 @@ body {
 .container{
     width: 100%;
     margin: 0 auto;
-     border: 2px solid black;
+    
 }
 header {
     padding-top: 10px;
@@ -30,7 +30,7 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     min-height: 100px;
-    background: linear-gradient(orangered, gold);
+    background: linear-gradient(lightblue, blue);
     color: black;
 }
 
