@@ -1,1 +1,2 @@
-[Sun Oct 29 2017 00:39:20 GMT+0300 (RTZ 2 (зима))] Layer "НАСТОЯЩИЙ ГОРОДОК  — №1 —  СЕДОНА — НЕ АТтРАКЦИОН ДЛЯ ТУРИСТОВ,": Expected end of input but "," found.
+[Thu Nov 09 2017 01:34:19 GMT+0300 (RTZ 2 (зима))] Layer "НАСТОЯЩИЙ ГОРОДОК  — №1 —  СЕДОНА — НЕ АТтРАКЦИОН ДЛЯ ТУРИСТОВ,": Expected end of input but "," found.
+[Thu Nov 09 2017 01:42:40 GMT+0300 (RTZ 2 (зима))] Layer "Layer 23 copy 2.png": Duplicate file name: Layer 23 copy 2.png
