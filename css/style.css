@@ -4,16 +4,16 @@ html, body {
 }
 
 body {
-  width: calc(1200px);
-  margin: 0 auto;
+  color: #fff;
   font-family: "Arial", sans-serif;
   font-size: 12px;
-  color: #fff;
+  margin: 0 auto;
+  width: calc(1200px);
 }
 
 .container {
-  width: 100%;
   margin: 0 auto;
+  width: 100%;
 }
 
 header {
@@ -25,8 +25,8 @@ header {
 }
 
 .promo {
-  height: 544px;
   color: black;
+  height: 544px;
 }
 
 .menu {
@@ -36,46 +36,46 @@ header {
 .main-menu {}
 
 .main-menu__list {
+  list-style: none;
   margin: 0;
   padding: 0;
   width: 100%;
-  list-style: none;
 }
 
 .main-menu__list__item {
+  background: #fff url(../images/Layer61.png);
   display: inline-block;
-  width: 240px;
   height: 56px;
   text-align: center;
   text-transform: uppercase;
-  background: #fff url(../images/Layer61.png);
+  width: 240px;
 }
 
 .main-menu__list__item a {
-  display: block;
-  text-decoration: none;
   color: #000;
+  display: block;
   font-size: 10px;
   font-weight: bold;
   padding-top: 23px;
+  text-decoration: none;
 }
 
-.main-menu__list__item a:nth-child(3) {
+.main-menu__list__item:nth-child(3) {
   position: relative;
 }
 
-.main-menu__list__item a:nth-child(3)::before {
-  position: absolute;
-  content: '';
+.main-menu__list__item:nth-child(3)::before {
   background: url(../images/Layer8.png);
-  top: 0;
+  content: '';
   left: 0;
+  position: absolute;
+  top: 0;
 }
 
 .clearfix::after {
+  clear: both;
   content: '';
   display: table;
-  clear: both;
 }
 
 .info {
@@ -89,10 +89,10 @@ header {
 }
 
 .right-img {
-  float: right;
-  width: 70%;
   background: #F0E68C;
+  float: right;
   min-height: 49px;
+  width: 70%;
 }
 
 .right-info {
@@ -101,36 +101,55 @@ header {
 }
 
 .left-img {
-  float: left;
-  width: 70%;
   background: #F0E68C;
+  float: left;
   min-height: 49px;
+  width: 70%;
 }
 
 .middle {
-  padding-top: 10px;
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .middle__leftcol {
-  min-height: 100px;
   background: #3498db;
   float: left;
   margin-right: 10px;
+  min-height: 100px;
   width: 30%;
 }
 
 .middle__middlecol {
-  min-height: 100px;
   background: #3498db;
   float: left;
   margin-right: 10px;
+  min-height: 100px;
   width: calc(40% - 20px);
 }
 
 .middle__rightcol {
-  min-height: 100px;
   background: #3498db;
   float: right;
+  min-height: 100px;
   width: 30%;
+}
+
+.welcome {
+color: #81b3d2;
+font-size: 45px;
+font-weight: bold;
+text-align: center;
+}
+
+.under-welcome {
+
+}
+
+.sedona-title {
+
+}
+
+.grand-canyone {
+
 }
