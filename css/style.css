@@ -102,7 +102,7 @@ header {
   color: #fff;
 }
 
-.left-info h2{
+.h2{
   display: block;
   width: 125px;
   margin: 0 auto;
@@ -112,7 +112,7 @@ header {
   margin-top: 55px;
 }
 
-.left-info h3{
+.h3{
   display: block;
   width: 30px;
   margin: 0 auto;
@@ -154,12 +154,38 @@ height: 256px;
 .middle__leftcol {
   background: #fff;
   float: left;
+
+}
+.middle__leftcol h2, .middle__middlecol h2, .middle__rightcol h2{
+  position: relative;
+  margin-top: 160px;
+}
+
+.middle__leftcol h2::before{
+  content: '';
+  position: absolute;
+  width: 75px;
+  height: 72px;
+  top: -110px;
+  left: 25px;
+  background: url(../images/Layer12.png);
 }
 
 .middle__middlecol {
   background: #fff;
   float: left;
 
+
+}
+
+.middle__middlecol h2::before{
+  content: '';
+  position: absolute;
+  width: 75px;
+  height: 72px;
+  top: -110px;
+  left: 25px;
+  background: url(../images/Layer13.png);
 }
 
 .middle__rightcol {
@@ -168,6 +194,15 @@ height: 256px;
 
 }
 
+.middle__rightcol h2::before{
+  content: '';
+  position: absolute;
+  width: 75px;
+  height: 72px;
+  top: -110px;
+  left: 25px;
+  background: url(../images/Layer11.png);
+}
 .welcome {
 color: #81b3d2;
 text-transform: uppercase;
